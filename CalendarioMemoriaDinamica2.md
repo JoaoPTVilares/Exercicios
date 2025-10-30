@@ -15,6 +15,7 @@ Implementar um mini-sistema RH em C++ que permita gerir colaboradores e marcar f
    - Marcar/Desmarcar férias e faltas (por dia, mês e ano);
    - Listar colaboradores;
    - Visualizar calendário mensal de um colaborador com indicação de férias (F), faltas (X) e fins-de-semana;
+   - Importante: Não marcar férias ou faltas ao Fim de Semana
    - Guardar e carregar dados para/desde ficheiro (txt ou csv) ao sair/iniciar.
 3. Validações:
    - Verificar dias válidos para o mês/ano (bisexto);
