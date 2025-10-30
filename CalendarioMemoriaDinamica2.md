@@ -47,5 +47,3 @@ Implementar um mini-sistema RH em C++ que permita gerir colaboradores e marcar f
 ### Entrega
 
 - Envio de link do repository github do projecto
-
-(só será avaliado o código commited até ás 23h do dia de hoje )
