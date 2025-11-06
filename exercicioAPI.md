@@ -100,13 +100,13 @@ A aplicação deve garantir persistência da informação, gravando os dados dos
 
 Estrutura do Objeto Colaborador
 
-nome	string	Nome completo do colaborador
+nome	
 
-morada	string	Endereço do colaborador
+morada	
 
-data_nascimento	string	Data de nascimento (YYYY-MM-DD)
+data_nascimento
 
-departamento	string	Departamento em que trabalha
+departamento
 
 
 Sugestões de Bibliotecas
