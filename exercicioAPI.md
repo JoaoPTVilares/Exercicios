@@ -99,10 +99,13 @@ Persistência de Dados
 A aplicação deve garantir persistência da informação, gravando os dados dos colaboradores em ficheiros locais (o formato é de livre escolha, por exemplo: JSON, CSV, binário, etc.).
 
 Estrutura do Objeto Colaborador
-Campo	Tipo	Descrição
+
 nome	string	Nome completo do colaborador
+
 morada	string	Endereço do colaborador
+
 data_nascimento	string	Data de nascimento (YYYY-MM-DD)
+
 departamento	string	Departamento em que trabalha
 
 
