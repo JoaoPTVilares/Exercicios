@@ -30,7 +30,7 @@ GET /colaboradores/{id}
 Retorna o colaborador correspondente ao id especificado.
 
 Resposta (200 OK):
-
+  ```json
 {
   "id": 1,
   "nome": "João Silva",
@@ -38,25 +38,25 @@ Resposta (200 OK):
   "data_nascimento": "1990-05-10",
   "departamento": "Recursos Humanos"
 }
-
+  ```
 
 Erro (404 Not Found):
-
+  ```
 { "erro": "Colaborador não encontrado." }
-
+  ```
 POST /colaboradores
 
 Cria um novo colaborador a partir de um objeto JSON enviado no corpo da requisição.
 
-Exemplo de corpo:
-
+Exemplo body:
+  ```
 {
   "nome": "Maria Costa",
   "morada": "Avenida Central 45",
   "data_nascimento": "1988-09-21",
   "departamento": "Financeiro"
 }
-
+  ```
 
 Resposta (201 Created):
 
@@ -66,12 +66,12 @@ PATCH /colaboradores/{id}
 
 Atualiza um ou mais campos do colaborador com o id especificado.
 
-Exemplo de corpo:
-
+Exemplo :
+  ```json
 {
   "departamento": "Marketing"
 }
-
+  ```
 
 Resposta (200 OK):
 
