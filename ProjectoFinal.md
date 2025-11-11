@@ -1,8 +1,8 @@
-# Enunciado — Mini-RH Avançado: Expansão de Funcionalidades
+# Enunciado — RH Avançado: Projecto Final
 
 ## Objetivo
 
-Usando o **mini-sistema RH que já implementaste**, expandir o programa para adicionar novas funcionalidades que permitam um acompanhamento mais detalhado dos colaboradores.
+Usando o **mini-sistema RH que já implementaste** em https://github.com/JoaoPTVilares/Exercicios/blob/main/Calendario.md, expandir o programa para adicionar novas funcionalidades que permitam um acompanhamento mais detalhado dos colaboradores.
 O foco é **prático e incremental**: não reescrever o que já existe, mas construir **sobre a base existente**.
 
 O novo sistema deve continuar a permitir:
@@ -12,7 +12,7 @@ O novo sistema deve continuar a permitir:
 * Visualização de calendário mensal com indicação de fins de semana
 * Persistência em ficheiro com encriptação  dos nomes
 
-e incluir **funcionalidades novas**:
+e incluir as **funcionalidades novas**:
 
 ---
 
@@ -33,30 +33,31 @@ e incluir **funcionalidades novas**:
 
 > Estes requisitos **devem continuar a funcionar**
 
+
 ---
 
 ## Novos Requisitos (Expansão do Mini-RH)
 
-### 1?? Relatórios Mensais
+### 1 Relatórios Mensais
 
 * Função que imprime um relatório do mês para todos os colaboradores.
 * Mostrar: total de dias de férias (`F`) e faltas (`X`) por colaborador.
 
-### 2?? Busca de Colaborador
+### 2 Busca de Colaborador
 
 * Permitir procurar um colaborador pelo **nome** ou **ID**.
 * Mostrar: dados básicos do colaborador e o **calendário do mês atual**.
 
-### 3?? Estatísticas de Departamento
+### 3 Estatísticas de Departamento
 
 * Mostrar total de dias de férias e faltas **por departamento**.
 * Indicar o departamento com mais ausências.
 
-### 4?? Aviso de Conflito de Férias
+### 4 Aviso de Conflito de Férias
 
 * Antes de marcar férias, avisar se outro colaborador do mesmo departamento já tem férias naquele dia.
 
-### 5?? Dashboard Resumido
+### 5 Dashboard Resumido
 
 * Tabela mensal com:
 
@@ -67,7 +68,7 @@ e incluir **funcionalidades novas**:
   ```
 * Permite visão rápida de toda a equipa.
 
-### 6?? Formação / Cursos (Novo)
+### 6 Formação / Cursos
 
 * Cada colaborador pode ter uma lista de **formações, cursos ou certificações**.
 * Estrutura sugerida:
@@ -87,7 +88,7 @@ std::vector<Formacao> formacoes;
   * Remover curso
   * Listar cursos do colaborador
 
-### 7?? Notas / Observações Internas (Novo)
+### 7 Notas / Observações Internas
 
 * Cada colaborador pode ter uma lista de **notas internas ou observações**.
 * Estrutura sugerida:
@@ -107,11 +108,11 @@ std::vector<Nota> notas;
   * Remover nota
   * Listar notas
 
-### 8?? Exportação de Calendário / Relatório (Opcional)
+### 8 Exportação de Calendário / Relatório 
 
 * Gerar ficheiro `.txt` ou `.csv` com calendário de férias/faltas de um colaborador ou de toda a equipa.
 
-### 9?? Interface e Experiência de Consola (Opcional)
+### 9 Interface e Experiência de Consola 
 
 * Menu interativo com opções numeradas.
 * Mensagens de erro, confirmação, cores ou alinhamento para melhor leitura.
@@ -197,6 +198,7 @@ Mensagens claras confirmam ações como adicionar ou editar.
 
 ## Entrega
 
+* Até 23:00 de 20 Novembro de 2025
 * Repositorio github com o codigo fonte em diretório organizado (`colaborador.h/cpp`, `io.h/cpp`, `main.cpp`, etc.);
 * Ficheiro de dados de exemplo gerado pelo programa;
 * README com instruções de compilação e utilização;
@@ -208,7 +210,7 @@ Mensagens claras confirmam ações como adicionar ou editar.
 
 | Critério                                               | Peso |
 | ------------------------------------------------------ | ---- |
-| Funcionamento das funcionalidades novas e obrigatórias | 80%  |
+| Funcionamento das funcionalidades | 80%  |
 | Validações e tratamento de erros                       | 10%  |
 | Documentação e interface                               | 10%  |
 
