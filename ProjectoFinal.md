@@ -15,28 +15,25 @@ O novo sistema deve continuar a permitir:
 e incluir as **funcionalidades novas**:
 
 ---
+## Requisitos Originais a manter
 
-## Requisitos Originais (Mini-RH)
-
-| Funcionalidade                                                           | Estado |
-| ------------------------------------------------------------------------ | ------ |
-| Estrutura básica `Colaborador` com nome                                  | ??     |
-| Adicionar colaborador                                                    | ??     |
-| Marcar/Desmarcar férias e faltas (dia/mês/ano)                           | ??     |
-| Listar colaboradores                                                     | ??     |
-| Visualizar calendário mensal com férias (F), faltas (X) e fins-de-semana | ??     |
-| Não marcar férias/faltas ao fim de semana                                | ??     |
-| Guardar/carregar ficheiros com encriptação simples                       | ??     |
-| Verificação de dias válidos (mês/ano, bissexto)                          | ??     |
-| Evitar duplicados ou pedir confirmação                                   | ??     |
-| Código modular e organizado (`.h/.cpp`)                                  | ??     |
+* Estrutura básica `Colaborador` com nome
+* Adicionar colaborador
+* Marcar/Desmarcar férias e faltas (dia/mês/ano)
+* Listar colaboradores
+* Visualizar calendário mensal com férias (F), faltas (X) e fins-de-semana
+* Não marcar férias/faltas ao fim de semana
+* Guardar/carregar ficheiros com encriptação simples
+* Verificação de dias válidos (mês/ano, bissexto)
+* Evitar duplicados ou pedir confirmação
+* Código modular e organizado (`.h/.cpp`)
 
 > Estes requisitos **devem continuar a funcionar**
 
 
 ---
 
-## Novos Requisitos (Expansão do Mini-RH)
+## Novos Requisitos 
 
 ### 1 Relatórios Mensais
 
@@ -118,8 +115,9 @@ std::vector<Nota> notas;
 * Mensagens de erro, confirmação, cores ou alinhamento para melhor leitura.
 
 ---
+# Exemplo do Menu e Funcionalidades — RH Avançado
 
-Exemplo do Menu e algumas funcionalidades
+```
 =============================
       RH AVANÇADO
 =============================
@@ -177,16 +175,13 @@ Nota adicionada com sucesso!
 
 -----------------------------
 Escolha uma opção: 0
+```
 
-Detalhes do menu:
+## Detalhes do Menu
 
-O menu principal lista todas as funcionalidades, numeradas.
-
-Submenus para cada colaborador (Formações e Notas) permitem CRUD interno.
-
-Mensagens claras confirmam ações como adicionar ou editar.
-
-
+* O menu principal lista todas as funcionalidades, numeradas.
+* Submenus para cada colaborador (Formações e Notas) permitem **CRUD destas funcionalidades**.
+* Mensagens claras confirmam ações como adicionar ou editar.
 
 ## Regras e Boas Práticas
 
