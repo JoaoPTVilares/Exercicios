@@ -53,10 +53,11 @@ e incluir as **funcionalidades novas**:
 ### 4 Aviso de Conflito de Férias
 
 * Antes de marcar férias, avisar se outro colaborador do mesmo departamento já tem férias naquele dia.
+* Pode marcar á mesma, depois do aviso
 
 ### 5 Dashboard Resumido
 
-* Tabela mensal com:
+* Tabela mensal com os colaboradores :
 
   ```
   Nome      Férias  Faltas  Dias restantes
@@ -65,7 +66,7 @@ e incluir as **funcionalidades novas**:
   ```
 
   Total de férias para o ano são 22 dias
-* Permite visão rápida de toda a equipa.
+* Permite ver todos os colaboradores .
 
 ### 6 Formação / Cursos
 
