@@ -63,6 +63,8 @@ e incluir as **funcionalidades novas**:
   Alice     3       1       17
   Bob       5       0       15
   ```
+
+  Total de férias para o ano são 22 dias
 * Permite visão rápida de toda a equipa.
 
 ### 6 Formação / Cursos
@@ -107,7 +109,7 @@ std::vector<Nota> notas;
 
 ### 8 Exportação de Calendário / Relatório 
 
-* Gerar ficheiro `.txt` ou `.csv` com calendário de férias/faltas de um colaborador ou de toda a equipa.
+* Gerar ficheiro `.txt` ou `.csv` com calendário de férias/faltas de um colaborador ou de todo o departamento.
 
 ### 9 Interface e Experiência de Consola 
 
@@ -193,11 +195,11 @@ Escolha uma opção: 0
 
 ## Entrega
 
-* Até 23:00 de 20 Novembro de 2025
+* Até 20:00 de 25 Novembro de 2025
 * Repositorio github com o codigo fonte em diretório organizado (`colaborador.h/cpp`, `io.h/cpp`, `main.cpp`, etc.);
 * Ficheiro de dados de exemplo gerado pelo programa;
 * README com instruções de compilação e utilização;
-* Apresentação individual do funcionamento do projecto.
+* Apresentação individual do funcionamento do projecto. 10 a 15
 
 ---
 
@@ -205,8 +207,9 @@ Escolha uma opção: 0
 
 | Critério                                               | Peso |
 | ------------------------------------------------------ | ---- |
-| Funcionamento das funcionalidades | 80%  |
+| Funcionamento das funcionalidades | 70%  |
 | Validações e tratamento de erros                       | 10%  |
 | Documentação e interface                               | 10%  |
+| Estrutura do Codigo                                    | 10%  |
 
 ---
